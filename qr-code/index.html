@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>QR Code Challenge</title>
+	
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			background-color: hsl(212, 45%, 89%);
+			height: 100vh;
+			font-family: ;
+			font-family: "Outfit", sans-serif;
+			flex-direction: column;
+		}
+
+		p {
+			font-size: 15px;
+		}
+
+		.container {
+			background-color: hsl(0, 0%, 100%);
+			border-radius: 15px;
+			width: 320px;
+			padding: 18px;
+		}
+
+		.qr-container img {
+			max-width: 100%;
+			border-radius: 12px;
+		}
+
+		.qr-title {
+			font-size: 21px;
+			font-weight: 700;
+			color: hsl(218, 44%, 22%);
+		}
+
+		.qr-content {
+			font-weight: 400px;
+			color: hsl(220, 15%, 55%);
+			padding: 18px;
+			padding-top: 0;
+			padding-bottom: 14px;
+		}
+
+		.qr-footer {
+			font-size: 11px;
+			text-align: center;
+			padding-top: 20px;
+		}
+
+		.qr-footer a {
+			color: hsl(228, 45%, 44%);
+		}
+	
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="qr-container">
+			<img src="images/image-qr-code.png" alt="QR Code">
+		</div>
+		
+		<p class="qr-title">Improve your front-end skills by building projects</p>
+		<p class="qr-content">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+		</div>
+	</div>
+	<div class="qr-footer">
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mark Ryan V. Argamosa</a>
+</body>
+</html>
